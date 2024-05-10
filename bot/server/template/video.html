@@ -173,7 +173,7 @@
 <script>
     function copyUrl() {
         const url = window.location.href;
-        navigator.clipboard.writeText(url)
+        navigator.clipboard.writeText(openDownloadLink)
             .then(() => {
                 alert('URL copied to clipboard!');
             })
