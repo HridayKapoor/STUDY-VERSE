@@ -1,0 +1,46 @@
+# Exported from Render on 2024-05-23T10:52:05Z
+services:
+- type: web
+  name: STUDY-VERSE
+  runtime: docker
+  repo: https://github.com/HridayKapoor/STUDY-VERSE
+  plan: free
+  envVars:
+  - key: THEME
+    sync: false
+  - key: WORKERS
+    sync: false
+  - key: SLEEP_THRESHOLD
+    sync: false
+  - key: PASSWORD
+    sync: false
+  - key: USERNAME
+    sync: false
+  - key: PORT
+    sync: false
+  - key: BASE_URL
+    sync: false
+  - key: MULTI_TOKEN5
+    sync: false
+  - key: MULTI_TOKEN4
+    sync: false
+  - key: MULTI_TOKEN3
+    sync: false
+  - key: MULTI_TOKEN2
+    sync: false
+  - key: MULTI_TOKEN1
+    sync: false
+  - key: SESSION_STRING
+    sync: false
+  - key: AUTH_CHANNEL
+    sync: false
+  - key: BOT_TOKEN
+    sync: false
+  - key: API_HASH
+    sync: false
+  - key: API_ID
+    sync: false
+  region: singapore
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
